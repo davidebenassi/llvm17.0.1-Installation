@@ -19,18 +19,18 @@ After creating the folder structure create this simple script. This will export 
 ROOT=<ypur_intallation_root>
 export PATH=$ROOT/INSTALL/bin:$PATH 
 ```
-Run this script when you need to run tools from your personal installation of LLVM --> ```(ROOT)$ . setup.sh``` 
+Run this script when you need to run tools from your personal installation of LLVM -- ```(ROOT)$ . setup.sh``` 
 
 ## Installation
 ### Download Source and Setup
-1. Download the Source Code (_tar.gz_) inside $ROOT/SRC --> [Source Code](https://github.com/llvm/llvm-project/releases/tag/llvmorg-17.0.6).
+1. Download the Source Code (_tar.gz_) inside $ROOT/SRC -- [Source Code](https://github.com/llvm/llvm-project/releases/tag/llvmorg-17.0.6).
 2. Extract files - ```tar -xvzf llvm-project-llvmorg-17.0.6.tar.gz```
 3. Place extracted files correctly
 ```bash
 (ROOT/SRC)$ mv -r llvm-project-llvmorg-17.0.6/* .
 (ROOT/SRC)$ rm -r llvm-project-llvmorg-17.0.6 llvm-project-llvmorg-17.0.6.tar.gz
 ```
-4. Move into BUILD folder for next steps - ```cd $ROOT/BUILD```
+4. Move into **BUILD** folder for next steps - ```cd $ROOT/BUILD```
 ### Configuration
 Run the following command inside **BUILD** folder
 ```bash
