@@ -43,7 +43,7 @@ cmake -G "Unix Makefiles"
   $ROOT/SRC/llvm/
 ```
 **NOTES:** 
-1. The _host_ parameter depends on your machine architecture --> use ```X86``` for x86 and x86_64 machines
+1. The _host_ parameter depends on your machine architecture -- use ```X86``` for x86 and x86_64 machines
 2. The best option for developmen purposes would be to configure the installation with the ```-DCMAKE_BUILD_TYPE=Debug``` option, which would make the tools debuggable. However this involves increasing the size of the BUILD/INSTALL tree to over 100 GB.
 ### Compiling and Install
 ```bash
